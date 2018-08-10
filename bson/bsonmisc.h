@@ -17,6 +17,8 @@
 
 #pragma once
 
+#include <utils.hpp>
+
 namespace mongo {
 
     int getGtLtOp(const BSONElement& e);

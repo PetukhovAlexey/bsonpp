@@ -17,8 +17,6 @@
 
 #pragma once
 
-#include <boost/preprocessor/cat.hpp> // like the ## operator but works with __LINE__
-
 namespace mongo {
 
     /** iterator for a BSONObj

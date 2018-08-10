@@ -44,7 +44,6 @@
 #include <memory>
 #include <iostream>
 #include <sstream>
-#include <boost/utility.hpp>
 
 namespace bson {
 

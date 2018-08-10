@@ -17,10 +17,10 @@
 
 #pragma once
 
-#include <boost/intrusive_ptr.hpp>
 #include <set>
 #include <list>
 #include <vector>
+#include <utils.hpp>
 #include "atomic_int.h"
 #include "builder.h"
 #include "stringdata.h"

@@ -22,6 +22,7 @@
 
 #include <map>
 #include <limits>
+#include <algorithm>
 
 #if defined(_WIN32)
 #undef max
@@ -104,7 +105,7 @@ dodouble:
                 // we use memcmp as we allow zeros in UTF8 strings
                 int lsz = l.valuestrsize();
                 int rsz = r.valuestrsize();
-                int common = min(lsz, rsz);
+                int common = std::min(lsz, rsz);
                 int res = memcmp(l.valuestr(), r.valuestr(), common);
                 if( res ) 
                     return res;
